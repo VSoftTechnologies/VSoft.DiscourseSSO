@@ -1,0 +1,63 @@
+<dotnetnuke type="Package" version="5.0">
+  <packages>
+	<package name="VSoft.DiscourseSSO" type="Module" version="01.00.02">
+	  <friendlyName>VSoft.DiscourseSSO</friendlyName>
+	  <description>VSoft Discourse Single Sign on</description>
+	  <iconFile>~/Icons/Sigma/Software_32X32_Standard.png</iconFile>
+	  <owner>
+		<name>Vincent Parrett</name>
+		<organization>Vincent Parrett</organization>
+		<url>https://www.finalbuilder.com</url>
+		<email>vincent@finalbuilder.com</email>
+	  </owner>
+	  <license src="License.txt"></license>
+	  <releaseNotes src="ReleaseNotes.txt"></releaseNotes>
+	  <dependencies>
+		<dependency type="CoreVersion">09.00.00</dependency>
+	  </dependencies>
+	  <components>
+		<component type="ResourceFile">
+		  <resourceFiles>
+			<basePath>DesktopModules/MVC/VSoft.DiscourseSSO</basePath>
+			<resourceFile>
+			  <name>Resources.zip</name>
+			</resourceFile>
+		  </resourceFiles>
+		</component>
+		<component type="Module">
+		  <desktopModule>
+			<moduleName>VSoft.DiscourseSSO</moduleName>
+			<foldername>VSoft.DiscourseSSO</foldername>
+			<supportedFeatures />
+			<moduleDefinitions>
+			  <moduleDefinition>
+				<friendlyName>VSoft.DiscourseSSO</friendlyName>
+				<defaultCacheTime>0</defaultCacheTime>
+				<moduleControls>
+				  <moduleControl>
+					<controlKey />
+					<controlSrc>VSoft.DiscourseSSO.Controllers/SSOAuth/Index.mvc</controlSrc>
+					<supportsPartialRendering>False</supportsPartialRendering>
+					<controlTitle />
+					<controlType>View</controlType>
+					<iconFile />
+					<helpUrl />
+					<viewOrder>0</viewOrder>
+				  </moduleControl>
+				</moduleControls>
+			  </moduleDefinition>
+			</moduleDefinitions>
+		  </desktopModule>
+		</component>
+		<component type="Assembly">
+		  <assemblies>
+			<assembly>
+			  <name>VSoft.DiscourseSSO.dll</name>
+			  <path>bin</path>
+			</assembly>
+		  </assemblies>
+		</component>
+	  </components>
+	</package>
+  </packages>
+</dotnetnuke>

@@ -1,0 +1,23 @@
+﻿<h3>VSoft.DiscourseSSO</h3>
+<p class="Contributor">
+	Vincent Parrett <br />
+	<a href="mailto:vincent@finalbuilder.com">vincent@finalbuilder.com</a><br />
+	<a href=https://www.finalbuilder.com>https://www.finalbuilder.com</a><br />
+</p>
+<hr/>
+<div class="License">
+	<h3>About the VSoft.DiscourseSSO</h3>
+	<p class="Owner">
+		<b>Version CHANGEME</b><br /><br />
+	</p>
+	<p>Description about version.</p>
+	
+	<h4>Bug Fixes</h4>
+	<ul>
+			<li>List</li>
+			<li>of</li>
+			<li>bug</li>
+			<li>fixes</li>
+	</ul>
+	
+</div>
